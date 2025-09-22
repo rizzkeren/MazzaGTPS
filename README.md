@@ -1,0 +1,2 @@
+# MazzaGTPS
+HOW TO PLAY GTPS
