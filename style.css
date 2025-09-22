@@ -1,0 +1,97 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: url("https://i.ibb.co/0VZ5mbR/cloud-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 60px 20px 30px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.hero h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px #00f0ff;
+}
+
+.hero p {
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+/* Container */
+.container, .faq {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Card */
+.card {
+  background: rgba(0, 0, 50, 0.5);
+  border-radius: 12px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Accordion button */
+.accordion {
+  background: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px 20px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.accordion:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.panel {
+  display: none;
+  padding: 15px 20px;
+  background: rgba(0,0,0,0.4);
+  line-height: 1.6;
+}
+
+.panel a {
+  color: #00f0ff;
+  text-decoration: underline;
+}
+
+/* FAQ */
+.faq h2 {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 1.5rem;
+  text-shadow: 0 0 6px #00f0ff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+footer a {
+  color: #00f0ff;
+}
